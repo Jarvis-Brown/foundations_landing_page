@@ -8,6 +8,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
+    padding: 20px 140px 0px 140px;
 }
 
 .header-left {
@@ -47,7 +48,12 @@ a {
   justify-content: space-between;
   color: white;
   background-color: #1f2937;
+  padding: 20px 140px 80px 140px;
   
+}
+
+.mid-1-content {
+  padding-bottom: 80px;
 }
 
 button {
@@ -55,6 +61,7 @@ button {
   color: white;
   border-radius: 5px;
   padding: 10px 40px;
+  border-color: #3882f6;
   
  
 }
@@ -89,7 +96,7 @@ h2 {
 }
 
 h3 {
-  text-align: center;
+  
   border: 0px;
   margin: 0px;;
 }
@@ -97,18 +104,17 @@ h3 {
 .mid-2-content {
   background-color: #e5e7eb;
 
-  padding: 80px 0px;
+ 
+  padding: 80px 140px 80px 140px;
 }
 
 .mid-2-content h4 {
   text-align: right;
   margin: auto;
+  padding-right: 40px;
 }
 
-.bottom-content {
-  background-color: #3882f6;
-  border-radius: 15px;
-}
+
 
 .left_bottom h4, p {
   margin: 0px;
@@ -117,6 +123,10 @@ h3 {
 .button-group {
   display: flex;
   justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 15px;
+  padding: 40px;
+  margin: 80px 120px;
 }
 
 .button-group button {
